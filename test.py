@@ -1,11 +1,9 @@
 import csv
 import json
 import time
-
 import requests
 
 url = "https://pultegroup.wd1.myworkdayjobs.com/wday/cxs/pultegroup/PGI/jobs"
-
 
 def get_data(url, offset, limit):
     headers = {
